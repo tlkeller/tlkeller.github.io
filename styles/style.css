@@ -6,12 +6,13 @@ body
     background-color: #323643;
 }
 
-strong
+em
 {
-    font: italic;
+    font-style: italic;
+    font-weight: bold;
 }
 
 .header
 {
-    font-size: 48px
+    font-size: 48px;
 }
