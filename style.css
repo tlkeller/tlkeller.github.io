@@ -1,0 +1,17 @@
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #f7f7f7;
+    background-color: #323643;
+}
+
+strong
+{
+    font: italic;
+}
+
+.header
+{
+    font-size: 48px
+}
