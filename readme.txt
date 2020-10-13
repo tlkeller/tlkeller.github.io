@@ -22,28 +22,31 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-
+    Image w/ Alt Text (Profile Pic)
 
 
 (b) CSS features
-
-
+    Bootstrap Containers
+    Google Fonts (Montserrat)
+    Background and Text Color Palette (https://colorhunt.co/palette/118872)
 
 (c) Advanced features
 
 
 
 3. How long, in hours, did it take you to complete this assignment?
-
+    2 - 10/12
+    5 - 10/13
 
 
 4. What online resources did you consult when completing this assignment? (list specific URLs)
-
+    https://getbootstrap.com/ (Bootstrap)
+    https://blog.hubspot.com/website/css-fade-in (Fade-In Tutorial)
 
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-
+    Hau Truong - Fading-in text in CSS + color palette resources
 
 
 6. Is there anything special we need to know in order to run your code?
-
+    N/A
