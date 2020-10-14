@@ -1,9 +1,15 @@
 body
 {
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
+    font-weight: 400;
+    font-size: 30px;
 	color: #f7f7f7;
 	background-color: #323643;
+}
+
+a
+{
+    color: #f7f7f7;
 }
 
 em
@@ -12,150 +18,36 @@ em
 	font-weight: bold;
 }
 
-.header
+footer
+{
+    font-size: 16px
+}
+
+.large
 {
 	font-size: 48px;
 }
 
-.container
+.container, .container-fluid
 {
-	padding-top: 50px;
+    max-width: 1200px;
 }
 
-
-/* Header Text Fade In */
-.fade-in-1
+.container-fluid
 {
-	animation: fadeIn1 linear 2s;
-	-webkit-animation: fadeIn1 linear 2s;
-	-moz-animation: fadeIn1 linear 2s;
-	-o-animation: fadeIn1 linear 2s;
+    height: 100%;
 }
 
-@keyframes fadeIn1 {
-	0% {
-	  opacity:0;
-	}
-	30% {
-		opacity:0;
-	}
-	100% {
-	  opacity:1;
-	}
-  }
-  
-  @-moz-keyframes fadeIn1 {
-	0% {
-	  opacity:0;
-	}
-	30% {
-		opacity:0;
-	}
-	100% {
-	  opacity:1;
-	}
-  }
-  
-  @-webkit-keyframes fadeIn1 {
-	0% {
-	  opacity:0;
-	}
-	30% {
-		opacity:0;
-	}
-	100% {
-	  opacity:1;
-	}
-  }
-  
-  @-o-keyframes fadeIn1 {
-	0% {
-	  opacity:0;
-	}
-	30% {
-		opacity:0;
-	}
-	100% {
-	  opacity:1;
-	}
-  }
-  
-  @-ms-keyframes fadeIn1 {
-	0% {
-	  opacity:0;
-	}
-	30% {
-		opacity:0;
-	}
-	100% {
-	  opacity:1;
-	}
-  }
-
-.fade-in-2
+.flex-fill
 {
-	animation: fadeIn2 linear 4s;
-	-webkit-animation: fadeIn2 linear 4s;
-	-moz-animation: fadeIn2 linear 4s;
-	-o-animation: fadeIn2 linear 4s;
+    flex: 1 1 auto;
 }
 
-@keyframes fadeIn2 {
-	0% {
-	  opacity:0;
-    }
-    50% {
-        opacity:0;
-    }
-	100% {
-	  opacity:1;
-	}
-  }
-  
-  @-moz-keyframes fadeIn2 {
-	0% {
-	  opacity:0;
-	}
-    50% {
-        opacity:0;
-    }
-	100% {
-	  opacity:1;
-	}
-  }
-  
-  @-webkit-keyframes fadeIn2 {
-	0% {
-	  opacity:0;
-	}
-    50% {
-        opacity:0;
-    }
-	100% {
-	  opacity:1;
-	}
-  }
-  
-  @-o-keyframes fadeIn2 {
-	0% {
-	  opacity:0;
-	}
-    50% {
-        opacity:0;
-    }
-	100% {
-	  opacity:1;
-	}
-  }
-  
-  @-ms-keyframes fadeIn2 {
-	0% {
-	  opacity:0;
-	}
-    50% {
-        opacity:0;
-    }
-	100% {
-	  opacity:1;
-	}
-  }
+#top > .row
+{
+    min-height: 100vh;
+}
+
+/* Google Material Icons */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
