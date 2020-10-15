@@ -1,4 +1,4 @@
---Readme document for *author*--
+--Readme document for Trevor Keller--
 
 A reminder on academic integrity, as described in the syllabus.
 
@@ -22,8 +22,8 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-    Image w/ Alt Text (Profile Pic)
-
+    Images w/ Alt Text
+    Link to External Page (LinkedIn/Email in 'Contact Me' Section)
 
 (b) CSS features
     Bootstrap Containers
@@ -31,17 +31,21 @@ Talking to classmates about class material, assignment requirements, etc. is a g
     Background and Text Color Palette (https://colorhunt.co/palette/118872)
 
 (c) Advanced features
-
+    Fade-In Text on Load (CSS)
+    Fade-In Text on Scroll (AOS Library)
 
 
 3. How long, in hours, did it take you to complete this assignment?
     2 - 10/12
     8 - 10/13
+    5 - 10/14
 
 
 4. What online resources did you consult when completing this assignment? (list specific URLs)
     https://getbootstrap.com/ (Bootstrap)
     https://blog.hubspot.com/website/css-fade-in (Fade-In Tutorial)
+    https://github.com/michalsnik/aos (Animate on Scroll)
+    http://google.github.io/material-design-icons/#icon-font-for-the-web (Google Material Icons)
 
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?

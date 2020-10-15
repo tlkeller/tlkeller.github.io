@@ -26,26 +26,21 @@ EMAIL: tlkeller@uci.edu
 
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
 
 
 </head>
 <body>
-	<div id="top" class="container-fluid  main_container d-flex">
+    <!-- SPLASH SCREEN -->
+    <div id="top" class="container-fluid  main_container d-flex">
         <div class="row flex-fill">
             <div class="col h-100">
                 <div class="row align-items-center h-75">
-                    <div class="col-md-8">
-                        <div class="large">
-                            <p class="fade-in-1"><em>Hello.</em></p>
-                            <p class="fade-in-2">My name is <em>Trevor Keller</em> and I am a <em>designer/developer.</em></p>
-                        </div>
+                    <div class="col-md-8 large-text">
+                        <p class="fade-in-1"><em>Hello.</em></p>
+                        <p class="fade-in-2">My name is <em>Trevor Keller</em> and I am a <em>designer/developer.</em></p>
                     </div>
-                    <div class="col-md-4">
-                            <img class="fade-in-2" src="images/trevor_circle.png" class="text-center" width="400" height="400" alt="Trevor Keller">
+                    <div class="col-md-4 text-center">
+                            <img class="fade-in-2 text-center" src="images/trevor_circle.png" width="400" height="400" alt="Trevor Keller">
                     </div>
                 </div>
                 <div class="row h-25 align-items-center text-center">
@@ -57,28 +52,92 @@ EMAIL: tlkeller@uci.edu
             </div>
         </div>
 	</div>
-        <!-- TYPES OF WORK -->
-        <!-- PROJECTS -->
-        <!-- MORE ABOUT ME? -->
-	
+    
+    <div class="container border-top pt-4 pb-5" data-aos="fade">
+        <div class="row text-center">
+            <div class="col large-text">
+                <p><em>About Me</em></p>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-md-4 text-center">
+                <img src="images/trevor_archery_circle.png" class="text-center" width="400" height="400" alt="Trevor shooting a bow">
+            </div>
+            <div class="col-md-7 offset-md-1 align-middle">
+                <p>I am a (soon-to-be) UC Irvine grad passionate about making <em>good user experiences.</em></p>
+                <p>Outside of work I spend a lot of time with archery and virtual reality. </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container border-top pt-4 pb-5" data-aos="fade">
+        <div class="row text-center">
+            <div class="col large-text">
+                <p><em>Projects</em></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                
+            </div>
+            <div class="col-md-4">
+                
+            </div>
+            <div class="col-md-4">
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="container border-top pt-4 pb-4" data-aos="fade">
+        <div class="row text-center">
+            <div class="col large-text">
+                <p><em>Contact Me</em></p>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col">
+                <p class="logo-text"><i class="material-icons" style="font-size:48px">email</i><a href="mailto: tlkeller@uci.edu">  tlkeller@uci.edu</a></p>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col">
+                <img src="images/In-White-41px-R.png" style="vertical-align: top" alt="LinkedIn Logo"><p class="logo-text"></p><a href="https://www.linkedin.com/in/tlkeller/">  linkedin.com/in/tlkeller/</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- TYPES OF WORK -->
+    <!-- PROJECTS -->
+    <!-- MORE ABOUT ME? -->
+    
+    <!-- FOOTER -->
     <div class="container">
         <footer class="pt-4 border-top">
             <div class="container">
-                <div class="row">
+                <div class="row text-center align-items-center">
                     <div class="col">
-                        <div data-aos="fade" data-aos-offset="0" data-aos-anchor-placement="top-bottom">
-                            <p>Designed and Developed by Trevor Keller.</p>
-                            <p>
-                                <a href="http://validator.w3.org/check?uri=referer">
-                                    <u>W3C Validator</u>
-                                </a>
-                            </p>
-                        </div>
+                        <p>Designed and Developed by Trevor Keller.</p>
+                        <p>
+                            <a href="http://validator.w3.org/check?uri=referer">
+                                <u>W3C Validator</u>
+                            </a>
+                        </p>
                     </div>
                 </div>
             </div>
         </footer>
     </div>  
+
+    <!-- Initialize AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            delay: 50,
+            duration: 1200,
+            offset: 120
+        });
+    </script>
 
 	<!--Bootstrap Scripts-->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

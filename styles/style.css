@@ -3,13 +3,28 @@ body
 	font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 30px;
-	color: #f7f7f7;
-	background-color: #323643;
+    color: #f7f7f7;
+    /* background-color: #323643; */
+
+    /* background: linear-gradient(135deg, #323643 0%,#323643 40%, #1e3068 100%); */
+
+    /* background: rgb(50,54,67);
+    background: linear-gradient(137deg, rgba(50,54,67,1) 26%, rgba(96,100,112,1) 58%, rgba(147,222,255,1) 100%); */
+
+    /* background: rgb(50,54,67);
+    background: linear-gradient(130deg, rgba(50,54,67,1) 26%, rgba(33,52,110,1) 58%, rgba(0,18,177,1) 100%); */
+    background: linear-gradient(66deg, #FC466B 0%, #3F5EFB 100%);
 }
 
 a
 {
     color: #f7f7f7;
+}
+
+a:hover, a:active
+{
+    color: #606470;
+    text-decoration: none;
 }
 
 em
@@ -23,9 +38,16 @@ footer
     font-size: 16px
 }
 
-.large
+.large-text
 {
 	font-size: 48px;
+}
+
+.logo-text
+{
+    display: inline-flex;
+    vertical-align: middle;
+    white-space: pre;
 }
 
 .container, .container-fluid
@@ -51,3 +73,4 @@ footer
 /* Google Material Icons */
 .material-icons.md-light { color: rgba(255, 255, 255, 1); }
 .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
